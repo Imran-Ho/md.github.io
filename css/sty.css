@@ -1,0 +1,135 @@
+.topnav {
+  overflow: hidden;
+  background-color: #34495E;
+  margin-bottom: 50px;
+}
+
+.topnav a {
+  float: right;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+  margin:10px;
+}
+
+.topnav a:hover {
+  background-color: #34495E;
+  color: white;
+}
+
+.topnav:hover {
+  background-color: #333;
+  color: black;
+}
+/*
+.topnav a.active {
+  background-color: green;
+  color: red;
+}
+*/
+.ppp {
+  transform: rotate( 10deg);
+  padding-right: 0px;
+  margin-left: 10;
+  width: 400px;
+  height: 500px;
+  border-radius: 30px;
+
+
+}
+hr {
+  margin-top: 40px;
+}
+.pp {
+  background-color: white;
+  padding-left: 0px;
+  width: 400px;
+  height: 500px;
+  margin-left: 20px;
+}
+
+.ppp:hover {
+transform: none;
+}
+
+img:hover {
+  transform: scale(1.8);
+}
+
+body {
+  background-color: #34495E;
+  font-family: sans-serif;
+  color: white;
+}
+
+h3 {
+  text-align: center;
+  margin-top: 0px;
+  margin-bottom: 30px;
+}
+
+h5 {
+  text-align: center;
+  margin-top: 30px;
+  margin-bottom: 0px;
+}
+
+.container ~ div {
+  margin-bottom: 100px;
+}
+.contact-option {
+  box-sizing: border-box;
+  box-shadow: 2px 2px 2px #777;
+  margin-bottom: 20px;
+  flex-direction: column;
+  width: 70%
+
+}
+.front {
+  box-sizing: border-box;
+  box-shadow: 1px 1px 2px 2px gray;
+  text-align: center;
+  border-radius: 50px;
+
+}
+
+.front:hover {
+  transform: #f2f2f2;
+}
+
+td {
+  text-align: center;
+}
+
+.bottom {
+
+  height: 100px;
+  width: 100%;
+  text-align: center;
+  padding: 20px 40px;
+  background-color: #333;
+  margin-top: 100px
+  overflow: hidden;
+  text-decoration: none;
+}
+.form {
+  background-color: #5D6D7E;
+  height: 200px;
+
+}
+
+.my-experience {
+
+  box-sizing: border-box;
+  box-shadow: 1px 1px 2px 2px gray;
+  text-align: center;
+  border-radius: 50px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  margin-bottom: 20px;
+
+
+
+}
